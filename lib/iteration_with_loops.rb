@@ -6,7 +6,7 @@ def find_min_in_nested_arrays(src)
     daily_low_element = () 
       element_index = 0
     while element_index< src[row_index].count do
-          src[row_index][element_index] = daily_low_element
+          src[row_index][element_index] 
           if src[row_index][element_index] < daily_low_element
         daily_low_element = src[row_index][element_index]
       end
