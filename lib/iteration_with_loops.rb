@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
         daily_low_element = src[row_index][element_index]
       end
       element_index += 1
-      daily_low_element = src[row_index][element_index] += 1 
+      daily_low_element = src[row_index][[element_index] += 1]
     end
     row_index += 1 
      low_temp_each_day<< daily_low_element
